@@ -120,4 +120,8 @@
   .t_left {
     padding: 0px;
   }
+  .t_left .top-util h1 {
+    width: auto;
+    text-align: center;
+  }
 }

@@ -22,26 +22,26 @@ function Advantage() {
           </Fade>
         </div>
         <div className="text-div">
-          <Fade direction="up" delay={700} duration={600}>
+          <Fade triggerOnce direction="up" delay={700} duration={600}>
             <p className="desc">
               The hard part is already done - Multiverse Studio has built a
               custom IP that allows us to create and deploy AAA quality 3D games
               rapidly and seamlessly.
             </p>
           </Fade>
-          <Fade direction="up" delay={700} duration={1200}>
+          <Fade triggerOnce direction="up" delay={700} duration={1200}>
             <p className="desc">
               VR - we are virtual reality capable. Gods of Asgard will be the
               first play-to-earn in history with VR capability.
             </p>
           </Fade>
-          <Fade direction="up" delay={700} duration={1400}>
+          <Fade triggerOnce direction="up" delay={700} duration={1400}>
             <p className="desc">
               Ai - Our Ai named Annie, developed by Multiverse co-founder Ti is
               used in game…
             </p>
           </Fade>
-          <Fade direction="up" delay={700} duration={1700}>
+          <Fade triggerOnce direction="up" delay={700} duration={1700}>
             <p className="desc">
               Quick on board process - we have access to top talent which allows
               us to assemble a team around each project and build with quality
