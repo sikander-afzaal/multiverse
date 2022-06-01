@@ -6,7 +6,7 @@ import img from "../../Assets/about.png";
 function Advantage() {
   return (
     <div className="advantage" id="advantage">
-      <Fade left triggerOnce>
+      <Fade direction="left" duration={1000} delay={100} triggerOnce>
         <div className="t_left">
           <div className="top-util">
             <h1 className="title">What is Our Advantage?</h1>
@@ -35,7 +35,7 @@ function Advantage() {
           </div>
         </div>
       </Fade>
-      <Fade right>
+      <Fade triggerOnce direction="right" duration={1000} delay={100}>
         <div className="t_right">
           <img className="advantage-img" src={img} alt="" />
         </div>

@@ -10,7 +10,8 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 0rem;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .advantage-img {
@@ -71,6 +72,9 @@
   align-items: center;
 }
 
+.advantage .desc {
+  text-align: left;
+}
 @media screen and (max-width: 1300px) {
   .advantage {
     flex-direction: column;

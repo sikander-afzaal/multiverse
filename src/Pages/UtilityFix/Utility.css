@@ -7,6 +7,7 @@
   padding-bottom: 3rem;
   gap: 20px;
   min-height: 60vh;
+  height: auto;
 }
 .top-util {
   text-align: center;
@@ -46,6 +47,9 @@
   gap: 4rem;
   position: relative;
   align-items: flex-start;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 3rem;
 }
 .box-grid::before {
   content: "";
@@ -59,6 +63,9 @@
   background-position: center center;
   background-repeat: no-repeat;
   z-index: -1;
+}
+.box-grid div {
+  height: 100%;
 }
 .islandCardWrapper {
   height: 100%;
