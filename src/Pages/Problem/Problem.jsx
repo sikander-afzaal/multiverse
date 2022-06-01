@@ -8,20 +8,33 @@ import pointerRight from "../../Assets/right-icon.svg";
 function Problem() {
   return (
     <div id="problem" className="problem">
-      <Fade triggerOnce cascade={true} duration={1500} direction={"down"}>
-        <div className="top-util">
+      <div className="top-util">
+        <Fade
+          triggerOnce
+          direction="down"
+          duration={1000}
+          delay={400}
+          fraction={0}
+        >
           <h1 className="title">So Whats the Problem?</h1>
+        </Fade>
+        <Fade triggerOnce delay={400}>
           <p>They don’t know where to start!</p>
-        </div>
+        </Fade>
+      </div>
+      <Fade triggerOnce delay={500} duration={1000} direction={"up"}>
         <p className="desc">
           Assuming the project has made the correct decision to explore and
           build out utility, majority don't know where to start!
         </p>
+      </Fade>
+      <Fade triggerOnce delay={900} duration={1000} direction={"up"}>
         <p className="desc">
           Building and developing a blockchain p2e game is not easy. For a
           project to build its own game they must go through the process of;
         </p>
       </Fade>
+
       <Fade triggerOnce duration={1000}>
         <div className="problem-image">
           <img className="problem-bg" src={bg} alt="" />

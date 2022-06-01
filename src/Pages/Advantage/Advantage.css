@@ -28,8 +28,11 @@
   justify-content: center;
   align-items: flex-start;
 }
-.t_left .top-util {
+.t_left div {
   align-items: flex-start;
+}
+.t_left .top-util h1 {
+  width: max-content;
   text-align: left;
 }
 

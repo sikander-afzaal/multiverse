@@ -28,17 +28,27 @@ const UtilCard = ({ img, title, imgStyles }) => {
 function Utility() {
   return (
     <div className="utility">
-      <Fade
-        triggerOnce
-        direction="down"
-        cascade={true}
-        duration={2000}
-        fraction={1}
-      >
-        <div className="top-util">
+      <div className="top-util">
+        <Fade
+          triggerOnce
+          direction="down"
+          duration={1000}
+          delay={400}
+          fraction={0}
+        >
           <h1 className="title">Solving the Utility Problem</h1>
+        </Fade>
+        <Fade triggerOnce delay={400}>
           <p>“No, a hoodie is not considered ‘utility’”.</p>
-        </div>
+        </Fade>
+      </div>
+      <Fade
+        fraction={1}
+        triggerOnce
+        direction={"up"}
+        duration={500}
+        delay={900}
+      >
         <p className="desc">
           Many projects have built amazing communities, however, there will come
           a point in time where a project is forced to provide utility to its
@@ -51,7 +61,7 @@ function Utility() {
           <h2>Building Utility Allows A Project To</h2>
         </Fade>
         <div className="box-grid">
-          <Fade triggerOnce duration={1000} direction="left" delay={500}>
+          <Fade triggerOnce duration={1000} direction="left" delay={1000}>
             <UtilCard
               title="Create additional revenue streams"
               img={UtilCardImg1}
@@ -61,19 +71,19 @@ function Utility() {
           <Fade triggerOnce duration={1000} direction="right" delay={1000}>
             <UtilCard title="Hold its value (floor price)" img={UtilCardImg2} />
           </Fade>
-          <Fade triggerOnce duration={1000} direction="left" delay={1500}>
+          <Fade triggerOnce duration={1000} direction="left" delay={1000}>
             <UtilCard
               title="Keep current community engage. Make them feel apart of the process."
               img={UtilCardImg3}
             />
           </Fade>
-          <Fade triggerOnce duration={1000} direction="right" delay={2000}>
+          <Fade triggerOnce duration={1000} direction="right" delay={1000}>
             <UtilCard title="Asset ownership" img={UtilCardImg4} />
           </Fade>
-          <Fade triggerOnce duration={1000} direction="left" delay={2000}>
+          <Fade triggerOnce duration={1000} direction="left" delay={1000}>
             <UtilCard title="Player Reward Models" img={UtilCardImg4} />
           </Fade>
-          <Fade triggerOnce duration={1000} direction="right" delay={2400}>
+          <Fade triggerOnce duration={1000} direction="right" delay={1000}>
             <UtilCard title="Expand community" img={UtilCardImg4} />
           </Fade>
         </div>

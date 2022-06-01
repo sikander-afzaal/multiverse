@@ -35,12 +35,13 @@ const RoadmapCard = ({ subhead, points, title, img, isActive = false }) => {
 function Roadmap() {
   return (
     <div>
-      <Fade cascade triggerOnce fraction={1} duration={1500} delay={200}>
-        <div className="container-wrapper">
+      <div className="container-wrapper">
+        <Fade triggerOnce fraction={0} duration={1000} delay={0}>
           <h1 className="title">Roadmap</h1>
-        </div>
-
-        <div className={"cards"}>
+        </Fade>
+      </div>
+      <Fade triggerOnce duration={1000} delay={600}>
+        <div className="cards">
           <RoadmapCard
             title="Phase 1"
             img={avatar1}
