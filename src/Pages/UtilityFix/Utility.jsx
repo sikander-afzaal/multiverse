@@ -3,10 +3,12 @@ import Tilt from "react-parallax-tilt";
 import { Fade } from "react-awesome-reveal";
 
 import "./Utility.css";
-import UtilCardImg1 from "../../Assets/islandCardImg1.png";
-import UtilCardImg2 from "../../Assets/islandCardImg2.png";
-import UtilCardImg3 from "../../Assets/islandCardImg3.png";
-import UtilCardImg4 from "../../Assets/islandCardImg4.png";
+import UtilCardImg1 from "../../Assets/icons/icon1.svg";
+import UtilCardImg2 from "../../Assets/icons/icon2.svg";
+import UtilCardImg3 from "../../Assets/icons/icon3.svg";
+import UtilCardImg4 from "../../Assets/icons/icon4.svg";
+import UtilCardImg5 from "../../Assets/icons/icon5.svg";
+import UtilCardImg6 from "../../Assets/icons/icon6.svg";
 const UtilCard = ({ img, title, imgStyles }) => {
   return (
     <Tilt
@@ -81,10 +83,10 @@ function Utility() {
             <UtilCard title="Asset ownership" img={UtilCardImg4} />
           </Fade>
           <Fade triggerOnce duration={1000} direction="left" delay={1000}>
-            <UtilCard title="Player Reward Models" img={UtilCardImg4} />
+            <UtilCard title="Player Reward Models" img={UtilCardImg5} />
           </Fade>
           <Fade triggerOnce duration={1000} direction="right" delay={1000}>
-            <UtilCard title="Expand community" img={UtilCardImg4} />
+            <UtilCard title="Expand community" img={UtilCardImg6} />
           </Fade>
         </div>
       </div>

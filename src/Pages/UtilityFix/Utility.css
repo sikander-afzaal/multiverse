@@ -45,6 +45,7 @@
 .box-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 4rem;
   position: relative;
   align-items: flex-start;
@@ -86,6 +87,9 @@
   border-radius: 8px;
   padding: 48px 22px;
 }
+.islandCard img {
+  max-width: 257px;
+}
 .islandCard p {
   color: white;
   margin-top: 20px;
@@ -98,6 +102,7 @@
 @media screen and (max-width: 1320px) {
   .box-grid {
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
   }
   .box-grid::before {
     display: none;
