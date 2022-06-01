@@ -17,7 +17,7 @@
   gap: 10px;
 }
 .top-util p {
-  color: white;
+  color: var(--pink);
   font-size: 1.3rem;
   opacity: 0.6;
 }
@@ -97,6 +97,9 @@
 @media screen and (max-width: 1320px) {
   .box-grid {
     grid-template-columns: 1fr;
+  }
+  .box-grid::before {
+    display: none;
   }
   .box-div {
     max-width: 90%;

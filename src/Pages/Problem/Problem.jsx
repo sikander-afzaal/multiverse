@@ -2,8 +2,9 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 import "./Problem.css";
-import bg from "../../Assets/roadmap-bg.png";
-import pointer from "../../Assets/pointer.png";
+import bg from "../../Assets/line.svg";
+import pointerLeft from "../../Assets/left-icon.svg";
+import pointerRight from "../../Assets/right-icon.svg";
 function Problem() {
   return (
     <div id="problem" className="problem">
@@ -34,7 +35,8 @@ function Problem() {
           >
             <>
               <div className="left-pointer">
-                <img src={pointer} alt="" className="pointer-img" />
+                <img src={pointerRight} alt="" className="pointer-img" />
+                <img src={pointerLeft} alt="" className="pointer-img mobile" />
               </div>
               <div className="right-pointer">
                 <h4>Finding talent (what skills are required?)</h4>
@@ -50,7 +52,8 @@ function Problem() {
           >
             <>
               <div className="left-pointer">
-                <img src={pointer} alt="" className="pointer-img" />
+                <img src={pointerLeft} alt="" className="pointer-img" />{" "}
+                <img src={pointerRight} alt="" className="pointer-img mobile" />
               </div>
               <div className="right-pointer">
                 <h4>Hiring Developers</h4>
@@ -67,7 +70,8 @@ function Problem() {
           >
             <>
               <div className="left-pointer">
-                <img src={pointer} alt="" className="pointer-img" />
+                <img src={pointerRight} alt="" className="pointer-img" />{" "}
+                <img src={pointerLeft} alt="" className="pointer-img mobile" />
               </div>
               <div className="right-pointer">
                 <h4>Server setup and management</h4>
@@ -84,7 +88,8 @@ function Problem() {
           >
             <>
               <div className="left-pointer">
-                <img src={pointer} alt="" className="pointer-img" />
+                <img src={pointerLeft} alt="" className="pointer-img" />{" "}
+                <img src={pointerRight} alt="" className="pointer-img mobile" />
               </div>
               <div className="right-pointer">
                 <h4>Game design</h4>
@@ -100,10 +105,78 @@ function Problem() {
           >
             <>
               <div className="left-pointer">
-                <img src={pointer} alt="" className="pointer-img" />
+                <img src={pointerRight} alt="" className="pointer-img" />{" "}
+                <img src={pointerLeft} alt="" className="pointer-img mobile" />
               </div>
               <div className="right-pointer">
                 <h4>Modal design</h4>
+              </div>
+            </>
+          </Fade>
+          <Fade
+            triggerOnce
+            direction="down"
+            duration={1000}
+            delay={1000}
+            className="pointer-div pointer-div6"
+          >
+            <>
+              <div className="left-pointer">
+                <img src={pointerLeft} alt="" className="pointer-img" />{" "}
+                <img src={pointerRight} alt="" className="pointer-img mobile" />
+              </div>
+              <div className="right-pointer">
+                <h4>3D Animation</h4>
+              </div>
+            </>
+          </Fade>
+          <Fade
+            triggerOnce
+            direction="down"
+            duration={1000}
+            delay={1000}
+            className="pointer-div pointer-div7"
+          >
+            <>
+              <div className="left-pointer">
+                <img src={pointerRight} alt="" className="pointer-img" />{" "}
+                <img src={pointerLeft} alt="" className="pointer-img mobile" />
+              </div>
+              <div className="right-pointer">
+                <h4>Music and compositions</h4>
+              </div>
+            </>
+          </Fade>
+          <Fade
+            triggerOnce
+            direction="down"
+            duration={1000}
+            delay={1000}
+            className="pointer-div pointer-div8"
+          >
+            <>
+              <div className="left-pointer">
+                <img src={pointerLeft} alt="" className="pointer-img" />{" "}
+                <img src={pointerRight} alt="" className="pointer-img mobile" />
+              </div>
+              <div className="right-pointer">
+                <h4>In game economy and tokenomics</h4>
+              </div>
+            </>
+          </Fade>
+          <Fade
+            triggerOnce
+            direction="down"
+            duration={1000}
+            delay={1000}
+            className="pointer-div pointer-div9"
+          >
+            <>
+              <div className="left-pointer">
+                <img src={pointerRight} alt="" className="pointer-img" />
+              </div>
+              <div className="right-pointer">
+                <h4>Finding the right project manager</h4>
               </div>
             </>
           </Fade>

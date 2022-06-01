@@ -13,30 +13,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
   position: relative;
   overflow: visible;
+  width: 1080px;
 }
 .problem-bg {
   border-radius: 65px;
   width: 100%;
   object-fit: contain;
+  max-width: 215px;
+  position: relative;
 }
 .pointer-div {
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
+  gap: 10px;
   position: absolute;
 }
 .pointer-img {
-  width: 100px;
+  width: 80px;
   object-fit: contain;
 }
 .right-pointer {
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   gap: 4px;
@@ -48,72 +52,119 @@
   overflow: visible;
 }
 .pointer-div1 {
-  top: 5.5%;
-  left: 58%;
+  top: -2.5%;
+  left: 52%;
 }
 .pointer-div2 {
-  top: 22%;
-  left: 18%;
+  top: 15%;
+  left: 17%;
 }
-.pointer-div2 .left-pointer {
-  order: 2;
-}
+
 .pointer-div3 {
   left: 57%;
-  top: 41%;
+  top: 27%;
 }
 .pointer-div4 {
-  top: 62%;
-  left: 22.5%;
+  top: 39%;
+  left: 20.5%;
 }
-.pointer-div4 .left-pointer {
+
+.pointer-div5 {
+  top: 49%;
+  left: 58%;
+}
+.pointer-div6 {
+  top: 61%;
+  left: 20%;
+}
+
+.pointer-div7 {
+  top: 73%;
+  left: 58%;
+}
+.pointer-div8 {
+  top: 85%;
+  left: -1%;
+}
+
+.pointer-div9 {
+  top: 93%;
+  left: 53%;
+}
+.pointer-div2 .left-pointer,
+.pointer-div4 .left-pointer,
+.pointer-div6 .left-pointer,
+.pointer-div8 .left-pointer {
   order: 2;
 }
-.pointer-div5 {
-  top: 82%;
-  left: 57%;
+.pointer-div2 .right-pointer,
+.pointer-div4 .right-pointer,
+.pointer-div6 .right-pointer,
+.pointer-div8 .right-pointer {
+  text-align: right;
+}
+.left-pointer img:first-child {
+  display: block;
+}
+.mobile {
+  display: none;
 }
 @media screen and (max-width: 1080px) {
   .problem-image {
-    max-width: 700px;
+    width: 700px;
   }
-
+  .pointer-div {
+    width: 270px;
+  }
   .right-pointer h4 {
     font-size: 1rem;
   }
   .pointer-div1 {
-    top: 2%;
-    left: 55%;
+    top: -2%;
+    left: 53%;
   }
   .pointer-div2 {
-    top: 20%;
-    left: 34%;
+    top: 16%;
+    left: 3%;
   }
-  .pointer-div2 .right-pointer {
-    order: 2;
-  }
+
   .pointer-div3 {
-    left: 55.4%;
-    top: 41%;
+    left: 61%;
+    top: 27%;
   }
   .pointer-div4 {
-    top: 59%;
-    left: 33.6%;
-  }
-  .pointer-div4 .right-pointer {
-    order: 2;
+    top: 39%;
+    left: 5%;
   }
   .pointer-div5 {
-    top: 79%;
-    left: 54.5%;
+    top: 49%;
+    left: 57%;
+  }
+  .pointer-div6 {
+    top: 61%;
+    left: 5%;
+  }
+
+  .pointer-div7 {
+    top: 73%;
+    left: 61%;
+  }
+  .pointer-div8 {
+    top: 85%;
+    left: 0%;
+  }
+
+  .pointer-div9 {
+    top: 93%;
+    left: 55%;
   }
 }
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 700px) {
   .problem-image {
-    max-width: 500px;
+    max-width: 375px;
   }
   .pointer-div {
-    width: auto;
+    width: min-content;
   }
   .right-pointer h4 {
     font-size: 0.9rem;
@@ -122,68 +173,136 @@
     max-width: 50px;
   }
   .pointer-div1 {
-    top: 5%;
+    top: -1%;
     left: 57%;
   }
   .pointer-div2 {
-    top: 23%;
-    left: 36%;
+    top: 17%;
+    left: -9%;
   }
 
   .pointer-div3 {
-    left: 58%;
-    top: 43%;
+    left: 71%;
+    top: 28%;
   }
   .pointer-div4 {
-    top: 62%;
-    left: 35.6%;
+    top: 41%;
+    left: -2%;
+  }
+  .pointer-div5 {
+    top: 51%;
+    left: 72%;
+  }
+  .pointer-div6 {
+    top: 63%;
+    left: -9%;
   }
 
-  .pointer-div5 {
-    top: 82%;
-    left: 57%;
+  .pointer-div7 {
+    top: 74%;
+    left: 71%;
+  }
+  .pointer-div8 {
+    top: 85%;
+    left: -12%;
+  }
+
+  .pointer-div9 {
+    top: 94%;
+    left: 58%;
   }
 }
-
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 530px) {
   .problem-image {
     max-width: 375px;
   }
-  .pointer-div {
-    width: 220px;
+  .left-pointer img:first-child {
+    display: none;
   }
 
-  .pointer-div1 {
-    top: 3%;
-    left: 10%;
+  .pointer-div9 img:first-child {
+    display: block;
+  }
+  .mobile {
+    display: block;
   }
   .pointer-div1 .left-pointer,
   .pointer-div3 .left-pointer,
-  .pointer-div5 .left-pointer {
+  .pointer-div5 .left-pointer,
+  .pointer-div7 .left-pointer {
     order: 2;
   }
   .pointer-div1 .right-pointer,
   .pointer-div3 .right-pointer,
-  .pointer-div5 .right-pointer {
-    order: 1;
+  .pointer-div5 .right-pointer,
+  .pointer-div7 .right-pointer {
     text-align: right;
   }
+
+  .pointer-div2 .left-pointer,
+  .pointer-div4 .left-pointer,
+  .pointer-div6 .left-pointer,
+  .pointer-div8 .left-pointer {
+    order: 1;
+  }
+  .pointer-div2 .right-pointer,
+  .pointer-div4 .right-pointer,
+  .pointer-div6 .right-pointer,
+  .pointer-div8 .right-pointer {
+    text-align: left;
+    order: 2;
+  }
+  .pointer-div {
+    width: 200px;
+  }
+  .right-pointer h4 {
+    font-size: 0.9rem;
+  }
+  .left-pointer img {
+    max-width: 50px;
+  }
+  .pointer-div1 {
+    top: -1%;
+    left: -3%;
+  }
   .pointer-div2 {
-    top: 23%;
-    left: 30%;
+    top: 18%;
+    left: 37%;
   }
 
   .pointer-div3 {
-    left: 10%;
-    top: 43%;
+    left: 11%;
+    top: 28%;
   }
   .pointer-div4 {
+    top: 41%;
+    left: 31%;
+  }
+  .pointer-div5 {
+    top: 52%;
+    left: 17%;
+  }
+  .pointer-div6 {
     top: 64%;
-    left: 25.6%;
+    left: 31%;
   }
 
-  .pointer-div5 {
-    top: 80%;
-    left: 19%;
+  .pointer-div7 {
+    top: 75%;
+    left: 11%;
+  }
+  .pointer-div8 {
+    top: 86%;
+    left: 35%;
+  }
+
+  .pointer-div9 {
+    top: 95%;
+    left: 58%;
+  }
+}
+@media screen and (max-width: 478px) {
+  .pointer-div9 {
+    width: min-content;
   }
 }
