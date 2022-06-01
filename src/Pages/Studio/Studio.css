@@ -9,6 +9,9 @@
   padding-bottom: 6rem;
   min-height: 60vh;
 }
+.studio .text-div p {
+  max-width: 80%;
+}
 .list-studio {
   display: flex;
   justify-content: center;
