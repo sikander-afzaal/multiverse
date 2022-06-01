@@ -1,0 +1,39 @@
+.studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 100%;
+  gap: 40px;
+  padding-bottom: 6rem;
+  min-height: 60vh;
+}
+.list-studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.list-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-div p {
+  color: white;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1320px) {
+  .list-div p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .list-div p {
+    font-size: 1rem;
+  }
+}

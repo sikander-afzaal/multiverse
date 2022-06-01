@@ -1,0 +1,103 @@
+.utility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 3rem;
+  gap: 20px;
+  min-height: 60vh;
+}
+.top-util {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.top-util p {
+  color: white;
+  font-size: 1.3rem;
+  opacity: 0.6;
+}
+.desc {
+  color: white;
+  font-size: 1.4rem;
+  max-width: 100%;
+  text-align: center;
+}
+.box-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+  margin-top: 3rem;
+}
+.utility h2 {
+  color: var(--purple);
+  font-size: 2rem;
+  text-align: center;
+}
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  position: relative;
+  align-items: flex-start;
+}
+.box-grid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/background-graphic.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.islandCardWrapper {
+  height: 100%;
+}
+.islandCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(
+    46deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.08) 70.72%
+  );
+  box-shadow: inset -2px 3px 3px rgba(152, 89, 36, 0.15),
+    inset 2px -3px 3px rgba(152, 89, 36, 0.15);
+  border-radius: 8px;
+  padding: 48px 22px;
+}
+.islandCard p {
+  color: white;
+  margin-top: 20px;
+  max-width: 80%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1320px) {
+  .box-grid {
+    grid-template-columns: 1fr;
+  }
+  .box-div {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-util,
+  .desc {
+    padding-inline: 10px;
+  }
+}

@@ -1,0 +1,189 @@
+.problem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 70vh;
+  flex-direction: column;
+  padding: 3rem 0rem;
+  margin-top: 2rem;
+  gap: 30px;
+}
+.problem-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+  overflow: visible;
+}
+.problem-bg {
+  border-radius: 65px;
+  width: 100%;
+  object-fit: contain;
+}
+.pointer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  position: absolute;
+}
+.pointer-img {
+  width: 100px;
+  object-fit: contain;
+}
+.right-pointer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.right-pointer h4 {
+  font-size: 1.3rem;
+  padding: 0px;
+  margin: 0px;
+  overflow: visible;
+}
+.pointer-div1 {
+  top: 5.5%;
+  left: 58%;
+}
+.pointer-div2 {
+  top: 22%;
+  left: 18%;
+}
+.pointer-div2 .left-pointer {
+  order: 2;
+}
+.pointer-div3 {
+  left: 57%;
+  top: 41%;
+}
+.pointer-div4 {
+  top: 62%;
+  left: 22.5%;
+}
+.pointer-div4 .left-pointer {
+  order: 2;
+}
+.pointer-div5 {
+  top: 82%;
+  left: 57%;
+}
+@media screen and (max-width: 1080px) {
+  .problem-image {
+    max-width: 700px;
+  }
+
+  .right-pointer h4 {
+    font-size: 1rem;
+  }
+  .pointer-div1 {
+    top: 2%;
+    left: 55%;
+  }
+  .pointer-div2 {
+    top: 20%;
+    left: 34%;
+  }
+  .pointer-div2 .right-pointer {
+    order: 2;
+  }
+  .pointer-div3 {
+    left: 55.4%;
+    top: 41%;
+  }
+  .pointer-div4 {
+    top: 59%;
+    left: 33.6%;
+  }
+  .pointer-div4 .right-pointer {
+    order: 2;
+  }
+  .pointer-div5 {
+    top: 79%;
+    left: 54.5%;
+  }
+}
+@media screen and (max-width: 742px) {
+  .problem-image {
+    max-width: 500px;
+  }
+  .pointer-div {
+    width: auto;
+  }
+  .right-pointer h4 {
+    font-size: 0.9rem;
+  }
+  .left-pointer img {
+    max-width: 50px;
+  }
+  .pointer-div1 {
+    top: 5%;
+    left: 57%;
+  }
+  .pointer-div2 {
+    top: 23%;
+    left: 36%;
+  }
+
+  .pointer-div3 {
+    left: 58%;
+    top: 43%;
+  }
+  .pointer-div4 {
+    top: 62%;
+    left: 35.6%;
+  }
+
+  .pointer-div5 {
+    top: 82%;
+    left: 57%;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .problem-image {
+    max-width: 375px;
+  }
+  .pointer-div {
+    width: 220px;
+  }
+
+  .pointer-div1 {
+    top: 3%;
+    left: 10%;
+  }
+  .pointer-div1 .left-pointer,
+  .pointer-div3 .left-pointer,
+  .pointer-div5 .left-pointer {
+    order: 2;
+  }
+  .pointer-div1 .right-pointer,
+  .pointer-div3 .right-pointer,
+  .pointer-div5 .right-pointer {
+    order: 1;
+    text-align: right;
+  }
+  .pointer-div2 {
+    top: 23%;
+    left: 30%;
+  }
+
+  .pointer-div3 {
+    left: 10%;
+    top: 43%;
+  }
+  .pointer-div4 {
+    top: 64%;
+    left: 25.6%;
+  }
+
+  .pointer-div5 {
+    top: 80%;
+    left: 19%;
+  }
+}
