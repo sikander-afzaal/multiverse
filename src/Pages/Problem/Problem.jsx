@@ -196,7 +196,9 @@ function Problem() {
         </div>
       </Fade>
       <Fade triggerOnce cascade={true} direction={"up"} duration={1500}>
-        <p className="desc">And A LOT MORE…</p>
+        <p className="desc" style={{ width: "100%" }}>
+          And A LOT MORE…
+        </p>
         <p className="desc">
           Wanting to build a game is one thing, knowing how to build a game is
           another.
