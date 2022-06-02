@@ -109,10 +109,21 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .advantage-img {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .advantage-img {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 560px) {
   .t_container {
     max-width: none;
+  }
+  .advantage {
+    padding: 0px;
   }
   .t_left h2 {
     font-size: 2rem !important;
@@ -122,6 +133,9 @@
   }
   .t_left .top-util h1 {
     width: auto;
+    text-align: center;
+  }
+  .advantage .desc {
     text-align: center;
   }
 }

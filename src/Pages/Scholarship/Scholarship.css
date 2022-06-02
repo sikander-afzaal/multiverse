@@ -1,0 +1,50 @@
+.scholar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+.scholar img {
+  max-width: 100%;
+  object-fit: contain;
+  width: 50%;
+}
+.right-scholar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.right-scholar p {
+  text-align: left;
+  margin: 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 1300px) {
+  .scholar {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .right-scholar {
+    width: 100%;
+  }
+  .right-scholar h2 {
+    align-self: center;
+  }
+  .scholar img {
+    order: 2;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .scholar {
+    margin-top: 2rem;
+  }
+  .right-scholar p {
+    text-align: center;
+  }
+}

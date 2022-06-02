@@ -22,7 +22,7 @@
   border-radius: 65px;
   width: 100%;
   object-fit: contain;
-  max-width: 215px;
+  max-width: 150px;
   position: relative;
 }
 .pointer-div {
@@ -59,43 +59,43 @@
   overflow: visible;
 }
 .pointer-div1 {
-  top: -2.5%;
-  left: 52%;
+  top: -4.5%;
+  left: 51%;
 }
 .pointer-div2 {
-  top: 15%;
-  left: 17%;
+  top: 12%;
+  left: 18%;
 }
 
 .pointer-div3 {
-  left: 57%;
-  top: 27%;
+  left: 56%;
+  top: 24%;
 }
 .pointer-div4 {
-  top: 39%;
-  left: 20.5%;
+  top: 36%;
+  left: 22%;
 }
 
 .pointer-div5 {
-  top: 49%;
-  left: 58%;
+  top: 47%;
+  left: 56%;
 }
 .pointer-div6 {
-  top: 61%;
-  left: 20%;
+  top: 58%;
+  left: 22%;
 }
 
 .pointer-div7 {
-  top: 73%;
-  left: 58%;
+  top: 70%;
+  left: 56%;
 }
 .pointer-div8 {
-  top: 85%;
-  left: -1%;
+  top: 82%;
+  left: 1%;
 }
 
 .pointer-div9 {
-  top: 93%;
+  top: 91%;
   left: 53%;
 }
 .pointer-div2 .left-pointer,
@@ -127,43 +127,43 @@
     font-size: 1rem;
   }
   .pointer-div1 {
-    top: -2%;
+    top: -5%;
     left: 53%;
   }
   .pointer-div2 {
-    top: 16%;
-    left: 3%;
+    top: 12%;
+    left: 6%;
   }
 
   .pointer-div3 {
-    left: 61%;
-    top: 27%;
+    left: 59%;
+    top: 24%;
   }
   .pointer-div4 {
-    top: 39%;
-    left: 5%;
+    top: 36%;
+    left: 7%;
   }
   .pointer-div5 {
-    top: 49%;
-    left: 57%;
+    top: 46%;
+    left: 54%;
   }
   .pointer-div6 {
-    top: 61%;
-    left: 5%;
+    top: 58%;
+    left: 7%;
   }
 
   .pointer-div7 {
-    top: 73%;
-    left: 61%;
+    top: 70%;
+    left: 58%;
   }
   .pointer-div8 {
-    top: 85%;
-    left: 0%;
+    top: 82%;
+    left: 2%;
   }
 
   .pointer-div9 {
-    top: 93%;
-    left: 55%;
+    top: 91%;
+    left: 53%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -180,43 +180,43 @@
     max-width: 50px;
   }
   .pointer-div1 {
-    top: -1%;
-    left: 57%;
+    top: -3%;
+    left: 53%;
   }
   .pointer-div2 {
-    top: 17%;
-    left: -9%;
+    top: 14%;
+    left: -4%;
   }
 
   .pointer-div3 {
-    left: 71%;
-    top: 28%;
+    left: 66%;
+    top: 26%;
   }
   .pointer-div4 {
-    top: 41%;
-    left: -2%;
+    top: 38%;
+    left: 5%;
   }
   .pointer-div5 {
-    top: 51%;
-    left: 72%;
+    top: 48%;
+    left: 65%;
   }
   .pointer-div6 {
-    top: 63%;
-    left: -9%;
+    top: 61%;
+    left: -3%;
   }
 
   .pointer-div7 {
-    top: 74%;
-    left: 71%;
+    top: 73%;
+    left: 65%;
   }
   .pointer-div8 {
-    top: 85%;
-    left: -12%;
+    top: 84%;
+    left: -5%;
   }
 
   .pointer-div9 {
-    top: 94%;
-    left: 58%;
+    top: 93%;
+    left: 56%;
   }
 }
 @media screen and (max-width: 530px) {
@@ -269,42 +269,42 @@
     max-width: 50px;
   }
   .pointer-div1 {
-    top: -1%;
+    top: -2%;
     left: -3%;
   }
   .pointer-div2 {
-    top: 18%;
-    left: 37%;
+    top: 17%;
+    left: 41%;
   }
 
   .pointer-div3 {
-    left: 11%;
+    left: 6%;
     top: 28%;
   }
   .pointer-div4 {
-    top: 41%;
-    left: 31%;
+    top: 40%;
+    left: 36%;
   }
   .pointer-div5 {
-    top: 52%;
-    left: 17%;
+    top: 50%;
+    left: 10%;
   }
   .pointer-div6 {
-    top: 64%;
-    left: 31%;
-  }
-
-  .pointer-div7 {
-    top: 75%;
-    left: 11%;
-  }
-  .pointer-div8 {
-    top: 86%;
+    top: 63%;
     left: 35%;
   }
 
+  .pointer-div7 {
+    top: 74%;
+    left: 4%;
+  }
+  .pointer-div8 {
+    top: 85%;
+    left: 41%;
+  }
+
   .pointer-div9 {
-    top: 95%;
+    top: 93%;
     left: 58%;
   }
   .pointer-div .right-pointer {
