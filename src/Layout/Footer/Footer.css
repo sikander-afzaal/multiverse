@@ -3,6 +3,7 @@
   text-align: center;
   padding: 2rem 0rem;
   color: white;
+  margin-top: 2rem;
 }
 @media screen and (max-width: 450px) {
   .footer p {
