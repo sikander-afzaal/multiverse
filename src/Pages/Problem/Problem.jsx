@@ -196,7 +196,7 @@ function Problem() {
         </div>
       </Fade>
       <Fade triggerOnce cascade={true} direction={"up"} duration={1500}>
-        <p className="desc" style={{ width: "100%" }}>
+        <p className="desc" style={{ maxWidth: "100%" }}>
           And A LOT MORE…
         </p>
         <p className="desc">
