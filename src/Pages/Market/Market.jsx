@@ -88,6 +88,13 @@ function Market() {
           </Fade>
         </div>
       </div>
+      <Fade triggerOnce delay={800} duration={1200} cascade direction="up">
+        <p className="market-desc">
+          Blockchain gaming is currently In second gen transitioning to third
+          Gen. Multiverse Studios is ahead Of its time with the ability to build
+          AAA quality with first mover Advantage.
+        </p>
+      </Fade>
     </div>
   );
 }
