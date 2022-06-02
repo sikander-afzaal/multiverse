@@ -4,11 +4,15 @@
   align-items: center;
   width: 100%;
   gap: 40px;
+  margin-top: 3rem;
+}
+.first-div {
+  width: 50%;
 }
 .scholar img {
   max-width: 100%;
   object-fit: contain;
-  width: 50%;
+  width: 100%;
 }
 .right-scholar {
   display: flex;
@@ -17,6 +21,12 @@
   flex-direction: column;
   gap: 30px;
   width: 50%;
+}
+.right-scholar div {
+  width: 100%;
+}
+.right-scholar .title {
+  text-align: left;
 }
 
 .right-scholar p {
@@ -35,6 +45,11 @@
   .right-scholar h2 {
     align-self: center;
   }
+  .first-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .scholar img {
     order: 2;
     width: 700px;
@@ -43,6 +58,9 @@
 @media screen and (max-width: 700px) {
   .scholar {
     margin-top: 2rem;
+  }
+  .right-scholar .title {
+    text-align: center;
   }
   .right-scholar p {
     text-align: center;

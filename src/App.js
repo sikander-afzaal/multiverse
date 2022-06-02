@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "./Layout/Footer/Footer";
 import Advantage from "./Pages/Advantage/Advantage";
 import Hero from "./Pages/Hero/Hero";
+import Market from "./Pages/Market/Market";
 import Problem from "./Pages/Problem/Problem";
 import Revenue from "./Pages/Revenue/Revenue";
 import Roadmap from "./Pages/Roadmap/Roadmap";
@@ -23,6 +24,7 @@ function App() {
         <Advantage />
         <Scholarship />
         <Revenue />
+        <Market />
         <Footer />
       </div>
     </div>
